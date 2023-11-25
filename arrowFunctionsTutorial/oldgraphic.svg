@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="339.107" height="263.708" viewBox="0 0 339.107 263.708">
+  <g id="graph" transform="translate(1)">
+    <g id="_2020-year" data-name="2020-year">
+      <rect id="graph-2020" width="73.922" height="117.907" transform="translate(4.689 99.939)" fill="#d3d0d0" opacity="0.402">
+        <animate attributeName="height" from="0" to="117.907" dur="1s" fill="freeze"/>
+        <animate attributeName="y" from="117.907" to="0" dur="1s" fill="freeze"/>
+      </rect>
+      <text id="_2020" data-name="2020" transform="translate(17.703 84.07)" font-size="17" font-family="Red Hat Display" letter-spacing="-0.01em"><tspan x="0" y="0">2020</tspan></text>
+      <text id="USD_493_315_949" data-name="USD 493,315,949" transform="translate(37 241.708)" font-size="14" font-family="Red Hat Display" letter-spacing="-0.01em"><tspan x="-14.028" y="0">USD</tspan><tspan class="count" x="-37.345" y="18">493315949</tspan></text>
+    </g>
+    <g id="_2021-year" data-name="2021-year">
+      <rect id="graph-2021" width="73.922" height="161.658" transform="translate(130.486 56.187)" fill="#7c7c7c" opacity="0.6">
+        <animate attributeName="height" from="0" to="161.658" dur="1s" fill="freeze"/>
+        <animate attributeName="y" from="161.658" to="0" dur="1s" fill="freeze"/>
+      </rect>
+      <text id="_2021" data-name="2021" transform="translate(148.967 41.133)" font-size="16" font-family="Red Hat Display" font-weight="600" letter-spacing="-0.01em"><tspan x="0" y="0">2021</tspan></text>
+      <text id="USD_515_844_466" data-name="USD 515,844,466" transform="translate(163.12 241.708)" font-size="14" font-family="Red Hat Display" font-weight="600" letter-spacing="-0.01em"><tspan x="-14.231" y="0">USD</tspan><tspan class="count" x="-39.095" y="18">515844466</tspan></text>
+    </g>
+    <g id="_2022-year" data-name="2022-year">
+      <rect id="graph-2022" width="73.922" height="183.905" transform="translate(253.859 33.941)" fill="#a5173d">
+        <animate attributeName="height" from="0" to="183.905" dur="1s" fill="freeze"/>
+        <animate attributeName="y" from="183.905" to="0" dur="1s" fill="freeze"/>
+      </rect>
+      <text id="_2022" data-name="2022" transform="translate(269.875 17)" font-size="17" font-family="Red Hat Display" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">2022</tspan></text>
+      <text id="USD_550_662_479" data-name="USD 550,662,479" transform="translate(296.107 241.708)" font-size="14" font-family="Red Hat Display" font-weight="700" letter-spacing="-0.01em"><tspan x="-14.518" y="0">USD</tspan><tspan class="count" x="-41.538" y="18">550662479</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1046.431" height="383.342" viewBox="0 0 1046.431 383.342">
+    <g id="mena" transform="translate(0 1512.535)">
+      <text id="Mena-2" data-name="Mena" transform="translate(2337 1947.395)" fill="#a5173d" font-size="40" font-family="Red Hat Display" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">MENA</tspan></text>
+      <text id="_34_" data-name="34%" transform="translate(2403 1758.948)" font-size="55" font-family="Red Hat Display" font-weight="700"><tspan x="-57.255" y="0">34%</tspan></text>
+      <g id="Group_141" data-name="Group 141">
+        <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(2267 1598.605)" fill="none" stroke="#acabab" stroke-width="30" opacity="0.297">
+          <circle cx="136.013" cy="136.013" r="136.013" stroke="none"/>
+          <circle cx="136.013" cy="136.013" r="121.013" fill="none"/>
+        </g>
+        <g id="inner-circle-mena" transform="matrix(-0.174, -0.985, 0.985, -0.174, 2292.684, 1892.185)" fill="none" stroke="#a5173d" stroke-width="30" stroke-dasharray="295 1000">
+          <circle cx="136.013" cy="136.013" r="136.013" stroke="none"/>
+          <circle cx="136.013" cy="136.013" r="121.013" fill="none"/>
+        </g>
+      </g>
+    </g>
+</svg>

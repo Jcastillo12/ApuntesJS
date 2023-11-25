@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        .loles{
+            background-color: beige;
+            height: 2500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loles" style="height: 2500px;"></div>
+
+    <section id="graphic-animate" style="height: 1000px; overflow: auto;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1046.431" height="383.342" viewBox="0 0 1046.431 383.342">
+            <g id="graphics-adjustments" transform="translate(-1514.148 -3089.588)">
+              <g id="latam" transform="translate(0 1512.535)">
+                <g id="Group_140" data-name="Group 140" transform="translate(370.407)">
+                  <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1528 1598.605)" fill="none" stroke="#acabab" stroke-width="30" opacity="0.297">
+                    <circle cx="136.013" cy="136.013" r="136.013" stroke="none"/>
+                    <circle cx="136.013" cy="136.013" r="121.013" fill="none"/>
+                  </g>
+                  <g id="inner-circle-latam" transform="matrix(-0.174, -0.985, 0.985, -0.174, 1553.684, 1892.185)" fill="none" stroke="#acabab" stroke-width="30" stroke-dasharray="170 1000">
+                    <circle cx="136.013" cy="136.013" r="136.013" stroke="none"/>
+                    <circle cx="136.013" cy="136.013" r="121.013" fill="none">
+                      <animate attributeName="stroke-dasharray" dur="2s" repeatCount="1" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" values="0 1000;170 1000" fill="freeze" />
+                    </circle>
+                  </g>
+                </g>
+                <text id="LATAM-2" data-name="LATAM" transform="translate(1959.407 1946.663)" fill="#acabab" font-size="40" font-family="Red Hat Display" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">LATAM</tspan></text>
+                <text id="_19_" data-name="19%" transform="translate(2034.907 1758.948)" font-size="55" font-family="Red Hat Display"><tspan x="-45.1" y="0">19%</tspan></text>
+              </g>
+            </g>
+          </svg>
+    </section>
+
+    <script>
+        // Get the SVG container element
+        const svgContainer = document.getElementById('graphic-animate');
+    
+        // Get the trigger element ID
+        const triggerElementId = 'graphic-animate';
+    
+        // Function to handle the scroll event
+        function handleScroll() {
+          // Get the trigger element by ID
+          const triggerElement = document.getElementById(triggerElementId);
+    
+          // Get the position of the trigger element relative to the viewport
+          const triggerRect = triggerElement.getBoundingClientRect();
+    
+          // Calculate the trigger position based on the element's top edge
+          const triggerPosition = triggerRect.top;
+    
+          // Check if the trigger position is within the viewport
+          if (triggerPosition <= window.innerHeight) {
+            // Trigger the animation when the scroll reaches the element
+            // Perform any animation actions here
+            console.log('Animation triggered!');
+          }
+        }
+    
+        // Attach the scroll event listener to the SVG container
+        svgContainer.addEventListener('scroll', handleScroll);
+    </script>
+</body>
+</html>

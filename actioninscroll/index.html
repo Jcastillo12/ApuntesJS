@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <style media="screen">
+    .sec{
+      height:1920px;
+    }
+    .uno{
+      background-color: #a3a3a3;
+    }
+    .dos{
+      background-color: #fdfdfd;
+    }
+    .tres{
+      background-color: #585858;
+    }
+
+  </style>
+  <body>
+    <div class="sec uno">
+
+    </div>
+    <div class="sec dos">
+      <div class="" >
+        <svg id="bar-2020" xmlns="http://www.w3.org/2000/svg" width="632.125" height="332.784" viewBox="0 0 632.125 332.784">
+            <g id="_2022-bars" data-name="2022-bars" transform="translate(-1632 -3797.216)">
+              <text id="_2022" data-name="2022" transform="translate(1747.125 3848.216)" font-size="50" font-family="Red Hat Display" font-weight="400" fill="#7C7C7C"><tspan x="0" y="0">2020</tspan></text>
+              <text id="_68_" data-name="68%" transform="translate(2264.125 3983.57)" font-size="40" font-family="Red Hat Display" font-weight="600"><tspan id="bar2020-counter-1" x="-79.92" y="0">68</tspan>%</text>
+              <text id="_20_" data-name="20%" transform="translate(2264.125 4050.5)" font-size="40" font-family="Red Hat Display" font-weight="600"><tspan id="bar2020-counter-2" x="-79.48" y="0">20</tspan>%</text>
+              <text id="_12_" data-name="12%" transform="translate(2264.125 4117.43)" font-size="40" font-family="Red Hat Display" font-weight="600"><tspan id="bar2020-counter-3" x="-65.2" y="0">12</tspan>%</text>
+              <text id="_88_" data-name="88%" transform="translate(2264.125 3916.641)" font-size="40" font-family="Red Hat Display" font-weight="600"><tspan id="bar2020-counter-4" x="-79.92" y="0">88</tspan>%</text>
+              <line id="Line_3" data-name="Line 3" x1="412" transform="translate(1747.5 3902.141)" fill="none" stroke="#d3d0d0" stroke-linecap="round" stroke-width="2"/>
+              <line id="Line_29" data-name="Line 29" x1="412" transform="translate(1747.5 3969.07)" fill="none" stroke="#d3d0d0" stroke-linecap="round" stroke-width="2"/>
+              <line id="Line_30" data-name="Line 30" x1="412" transform="translate(1747.5 4036)" fill="none" stroke="#d3d0d0" stroke-linecap="round" stroke-width="2"/>
+              <line id="Line_31" data-name="Line 31" x1="412" transform="translate(1747.5 4102.93)" fill="none" stroke="#d3d0d0" stroke-linecap="round" stroke-width="2"/>
+              <g id="ncr-bar">
+                <line id="Line_17" data-name="Line 17" x2="0" transform="translate(1747.125 3902.141)" fill="none" stroke="#a5173d" stroke-width="36" stroke-dasharray="336">
+                  <animate id="bar2020-1" attributeName="x2" dur="2s" from="0" to="414.137" fill="freeze" begin="indefinite"/>
+                </line>
+              </g>
+              <g id="nlr-bar">
+                <line id="Line_20" data-name="Line 20" x2="0" transform="translate(1747.125 3969.07)" fill="none" stroke="#7c7c7c" stroke-width="36" stroke-dasharray="228">
+                  <animate id="bar2020-2" attributeName="x2" dur="2s" from="0" to="414.137" fill="freeze" begin="indefinite"/>
+                </line>
+              </g>
+              <g id="er-bar">
+                <line id="Line_23" data-name="Line 23" x2="0" transform="translate(1747.125 4036)" fill="none" stroke="#acabab" stroke-width="36" stroke-dasharray="73 1000">
+                  <animate id="bar2020-3" attributeName="x2" dur="2s" from="0" to="414.137" fill="freeze" begin="indefinite"/>
+                </line>
+              </g>
+              <g id="npm-bar">
+                <line id="Line_26" data-name="Line 26" x2="0" transform="translate(1747.125 4102.93)" fill="none" stroke="#d3d0d0" stroke-width="36" stroke-dasharray="22 1000">
+                  <animate id="bar2020-4" attributeName="x2" dur="2s" from="0" to="414.137" fill="freeze" begin="indefinite"/>
+                </line>
+              </g>
+              <text id="NCR" transform="translate(1632 3917)" fill="#a5173d" font-size="40" font-family="Red Hat Display"><tspan x="0" y="0">NCR</tspan></text>
+              <text id="NLR" transform="translate(1632 3984)" fill="#7c7c7c" font-size="40" font-family="Red Hat Display"><tspan x="0" y="0">NLR</tspan></text>
+              <text id="ER" transform="translate(1632 4051)" fill="#acabab" font-size="40" font-family="Red Hat Display"><tspan x="0" y="0">ER</tspan></text>
+              <text id="NPM" transform="translate(1632 4118)" fill="#d3d0d0" font-size="40" font-family="Red Hat Display"><tspan x="0" y="0">NPM</tspan></text>
+            </g>
+          </svg>
+      </div>
+
+    </div>
+    <div class="sec tres">
+
+    </div>
+
+
+
+  </body>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        var executed = false; // Variable para controlar si la alerta ya se ha ejecutado
+
+        $(window).scroll(function() {
+            var elementOffset = $('#bar-2020').offset().top;
+            var scrollTop = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            const counter1 = document.getElementById("bar2020-counter-1");
+            const counter2 = document.getElementById("bar2020-counter-2");
+            const counter3 = document.getElementById("bar2020-counter-3");
+            const counter4 = document.getElementById("bar2020-counter-4");
+
+            if (!executed && scrollTop >= elementOffset - windowHeight / 2) {
+            executed = true; // Marcamos la alerta como ejecutada para que no se repita
+            document.getElementById("bar2020-1").beginElement();
+            document.getElementById("bar2020-2").beginElement();
+            document.getElementById("bar2020-3").beginElement();
+            document.getElementById("bar2020-4").beginElement();
+
+            counter1.classList.add("count");
+            counter2.classList.add("count");
+            counter3.classList.add("count");
+            counter4.classList.add("count");
+            //Ejecuta conteo
+            $('.count').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+                }, {
+                    duration: 2500,
+                    easing: 'swing',
+                    step: function (now) {
+                    $(this).text(Math.ceil(now));
+                    $(this).text( $(this).text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") ); 
+                    }
+                });
+            });
+
+            //  alert('Se ejecuta la animación');
+            }
+        });
+        });
+
+        
+
+    })(jQuery);
+
+
+  </script>
+</html>
+
